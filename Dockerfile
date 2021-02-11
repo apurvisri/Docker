@@ -1,5 +1,5 @@
 FROM python:latest
-WORKDIR /Users/apurvisrivastava/Desktop/Apurvi
+WORKDIR /Users/apurvisrivastava/.jenkins/workspace/docker-build-image
 copy . .
 RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN pip install --trusted-host pypi.python.org -r requirement.txt
