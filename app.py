@@ -1,4 +1,4 @@
-from flask import Flask
+rom flask import Flask
 from redis import Redis, RedisError
 import os
 import socket
@@ -27,5 +27,3 @@ def hello():
 
 if __name__ == "__main__":
   app.run(host="0.0.0.0", port=80)
-     
-
